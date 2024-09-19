@@ -8,7 +8,7 @@ const Tour = ({ item, handleRemove }) => {
   return (
     <div className="card">
       <h2>{name}</h2>
-      <p id={`tour-tem-para-${id}`}>
+      <p id={`tour-item-para-${id}`}>
         {showMore ? info : `${info.substring(0, 200)}...`}
         <span
           onClick={toggleShowMore}
