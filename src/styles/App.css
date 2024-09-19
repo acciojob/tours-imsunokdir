@@ -10,3 +10,31 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+#main{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.card{
+    background-color: rgb(199, 217, 193);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.758);
+}
+
+.price-remove{
+    display: flex;
+    justify-content: space-between;
+}
+
+#remove-btn{
+    border:none;
+    height: 30px;
+    border-radius: 10px;
+    color: red;
+}
+#remove-btn:hover{
+    cursor: pointer;
+}
