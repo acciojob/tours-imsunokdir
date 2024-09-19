@@ -15,7 +15,7 @@ const Tour = ({ item, handleRemove }) => {
           style={{ color: "blue", cursor: "pointer" }}
           id={`see-more-${id}`}
         >
-          {showMore ? "See less" : "See more"}
+          {showMore ? "Show less" : "See more"}
         </span>
       </p>
       <p className="price-remove">
