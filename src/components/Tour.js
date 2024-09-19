@@ -13,6 +13,7 @@ const Tour = ({ item, handleRemove }) => {
         <span
           onClick={toggleShowMore}
           style={{ color: "blue", cursor: "pointer" }}
+          id={`see-more-${id}`}
         >
           {showMore ? " Show less" : " Show more"}
         </span>
