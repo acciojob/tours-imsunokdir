@@ -20,7 +20,7 @@ const Tour = ({ item, handleRemove }) => {
       <p className="price-remove">
         <span>$ {price}</span>
         {/* <span> */}
-        <button id="delete-btn" onClick={() => handleRemove(id)}>
+        <button id={`delete-btn-${id}`} onClick={() => handleRemove(id)}>
           Remove
         </button>
         {/* </span> */}
