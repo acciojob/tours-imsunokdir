@@ -29,7 +29,7 @@ button{
     justify-content: space-between;
 }
 
-#remove-btn{
+#delete-btn{
     border:none;
     height: 30px;
     border-radius: 10px;
